@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/butoom_actions.css">
+  <link rel="stylesheet" href="./styles/media_screen.css">
+  <title>Criptografação de texto</title>
+</head>
+
+<body>
+  <main class="container">
+    <section class="container-conteudo">
+      <div class="logo">
+        <img class="logo-img" src="./img/LOGO.svg" alt="logo">
+      </div>
+      <div class="container-conteudo-entrada">
+        <textarea name="" id="dig-text" class="digite-seu-texto" placeholder="Digite seu texto"></textarea>
+        <section class="aviso-navegation">
+          <div class="aviso_container">
+            <img src="./img/info.svg" alt="info">
+            <span class="aviso">Apenas letras minúsculas e sem acento.</span>
+          </div>
+          <nav class="navegation">
+            <input class="btn-criptografar" type="submit" value="Criptografar">
+            <input class="btn-descriptografar" type="submit" value="Descriptografar">
+          </nav>
+        </section>
+      </div>
+    </section>
+    <section class="saida-de-texto">
+      <textarea class="saida-de-texto_msg-criptografado" name="msg.criptografado"></textarea>
+      <div class="saida-de-texto_informacoes">
+        <h3 class="h3-visibleoff">Nenhuma mensagem encontrada</h3>
+        <p class="p-visibleoff">Digite um texto que você deseja criptografar ou descriptografar.</p>
+        <img class="img-gato" src="./img/gato1.png" alt="">
+        <button id="copy">Copy</button>
+      </div>
+    </section>
+  </main>
+  <script src="./JS.js"></script>
+</body>
+
+</html>

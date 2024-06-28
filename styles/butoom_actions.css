@@ -1,0 +1,49 @@
+* {
+  --azul_escuro: #010d26;
+  --azul_medio: #023e73;
+  --azul_intermediario: #0879a6;
+  --azul_claro: #11c5d9;
+  --verde_medio: #038c3e;
+  --branco: #ffff;
+  --cinza: #d7d7d7d7;
+  --cinza_medio: #484848;
+  --preto_opaco: #272727;
+}
+
+.btn-criptografar:hover {
+  box-shadow: 0px 0px 10px 4px var(--azul_claro);
+}
+.btn-descriptografar:hover {
+  box-shadow: 0px 0px 10px 4px var(--azul_claro);
+  color: var(--branco);
+}
+
+#copy:hover {
+  box-shadow: 0px 0px 10px 4px var(--azul_claro);
+  color: var(--azul_escuro);
+}
+
+.btn-criptografar:active {
+  background-color: var(--azul_claro);
+}
+
+.btn-descriptografar:active {
+  background-color: var(--branco);
+}
+
+#copy:active {
+  background-color: var(--branco);
+}
+
+.btn-criptografar:focus {
+  outline: 2px solid var(--azul_claro);
+}
+
+.btn-descriptografar:focus {
+  outline: 2px solid var(--azul_claro);
+  color: var(--branco);
+}
+
+#copy:focus {
+  outline: 2px solid var(--azul_claro);
+}

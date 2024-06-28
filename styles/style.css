@@ -1,0 +1,206 @@
+/* (importar pelo css - inter 400 e 700): */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+* {
+  --azul_escuro: #010d26;
+  --azul_medio: #023e73;
+  --azul_intermediario: #0879a6;
+  --azul_claro: #11c5d9;
+  --verde_medio: #038c3e;
+  --branco: #ffff;
+  --cinza: #d7d7d7d7;
+  --cinza_medio: #484848;
+  --preto_opaco: #272727;
+  --btn-border-randius-pc: 0.938rem;
+  --btn-border-randius-responsivo: 1.5rem;
+  --saida-border-randius: 2rem;
+  margin: 0;
+  padding: 0;
+  font-family: "inter";
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  height: 100%;
+  width: 100vw;
+  background-color: var(--azul_escuro);
+}
+
+/* geral */
+.container {
+  height: 90vh;
+  margin: 2%;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 4%;
+}
+
+.container-conteudo {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.container-conteudo-entrada {
+  height: 100%;
+  margin-left: 20%;
+  margin-bottom: 3.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5%;
+}
+
+.navegation {
+  width: 100%;
+  column-count: 2;
+  align-items: center;
+  justify-content: center;
+  gap: 8%;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: auto;
+  max-width: auto;
+  margin: 0px;
+}
+
+.logo-img {
+  right: 100%;
+  width: 120px;
+}
+
+#dig-text {
+  background: none;
+  height: 100%;
+  border: none;
+  align-items: start;
+  justify-content: left;
+  text-align: left;
+  color: var(--branco);
+  font-size: 2rem;
+  font-weight: 100%;
+}
+
+::placeholder {
+  color: var(--branco);
+  font-size: 2rem;
+  font-weight: 100%;
+  align-items: start;
+  justify-content: left;
+  text-align: left;
+}
+
+textarea {
+  resize: none;
+}
+
+.aviso-navegation {
+  margin-bottom: 1%;
+  display: flex;
+  flex-direction: column;
+  gap: 50%;
+}
+
+.aviso {
+  color: var(--azul_claro);
+}
+
+.btn-criptografar {
+  height: 100%;
+  width: 100%;
+  background-color: var(--azul_intermediario);
+  padding: 5% 8%;
+  border: none;
+  border-radius: var(--btn-border-randius-pc);
+  color: var(--branco);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-descriptografar {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  padding: 5% 8%;
+  border: none;
+  outline: 1px solid var(--azul_claro);
+  border-radius: var(--btn-border-randius-pc);
+  color: var(--branco);
+  font-weight: 600;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* lado direito */
+
+.saida-de-texto {
+  height: 100%;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  background-color: var(--branco);
+  border-radius: var(--saida-border-randius);
+  padding: 4% 8%;
+}
+
+.saida-de-texto_informacoes {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 0.938rem;
+}
+
+.img-gato {
+  height: 32%;
+  width: auto;
+  margin: 100px auto;
+  border-radius: var(--btn-border-randius-pc);
+}
+
+#copy {
+  display: none;
+  width: 100%;
+  padding: 8%;
+  background-color: var(--cinza);
+  font-size: 1.1rem;
+  border: none;
+  border-radius: var(--btn-border-randius-responsivo);
+  color: var(--azul_medio);
+  font-weight: 600;
+  cursor: pointer;
+}
+.saida-de-texto_msg-criptografado {
+  display: none;
+  margin-top: 50%;
+  width: 100%;
+  height: 80%;
+  resize: none;
+  color: var(--azul_escuro);
+  background: none;
+  border: none;
+  font-size: 1rem;
+  font-weight: 100;
+  text-align: left;
+}
