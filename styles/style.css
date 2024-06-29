@@ -47,14 +47,14 @@
 }
 
 #tema {
-  height: 100%;
+  height: auto;
   color: var(--btnFontColor);
   outline: solid 1px var(--azul_intermediario);
   border-radius: var(--btn-border-randius-pc);
   background-color: var(--btnBgTheme);
   text-align: center;
   border: none;
-  padding: 1%;
+  padding: 1rem;
 }
 
 a {
