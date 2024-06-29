@@ -116,3 +116,16 @@ function aumentar_Container() {
     aumentarContainer.style.height = "30rem";
   }
 }
+
+//botão de mudar o tema
+const temaHtml = document.querySelector("html");
+const temaBotao = document.querySelector("#tema");
+temaBotao.addEventListener("click", function () {
+  temaHtml.classList.toggle("light-mode");
+
+  if (temaBotao.textContent == "Light Mode") {
+    this.textContent = "Dark Mode";
+  } else {
+    this.textContent = "Light Mode";
+  }
+});

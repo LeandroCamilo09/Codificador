@@ -8,6 +8,44 @@
   --cinza: #d7d7d7d7;
   --cinza_medio: #484848;
   --preto_opaco: #272727;
+  --preto: #000000;
+  transition: all 0.5s;
+}
+
+:root {
+  --bg: var(--azul_escuro);
+  --fontColorEntrada: var(--branco);
+  --fontColorBtnCrip: var(--branco);
+  --fontColorBtnDescrip: var(--branco);
+  --fontColorBtnCopy: var(--azul_escuro);
+  --fontColorInfo: var(--preto);
+  --btnBgTheme: var(none);
+  --btnFontColor: var(--branco);
+  --fontColorAviso: var(--azul_claro);
+  --fontColorBtnDescripHover: var(--branco);
+}
+
+.light-mode:root {
+  --bg: var(--cinza);
+  --fontColorEntrada: var(--preto_opaco);
+  --fontColorBtnCrip: var(--branco);
+  --fontColorBtnDescrip: var(--azul_intermediario);
+  --fontColorBtnDescripHover: var(--azul_intermediario);
+  --fontColorBtnCopy: var(--azul_escuro);
+  --fontColorInfo: var(--preto);
+  --btnBgTheme: var(--azul_intermediario);
+  --btnFontColor: var(--branco);
+  --fontColorAviso: var(--azul_medio);
+}
+
+#tema {
+  cursor: pointer;
+}
+
+/* hover */
+
+#tema:hover {
+  box-shadow: 0px 0px 10px 4px var(--azul_claro);
 }
 
 .btn-criptografar:hover {
@@ -15,13 +53,20 @@
 }
 .btn-descriptografar:hover {
   box-shadow: 0px 0px 10px 4px var(--azul_claro);
-  color: var(--branco);
+  color: var(--fontColorBtnDescripHover);
 }
 
 #copy:hover {
   box-shadow: 0px 0px 10px 4px var(--azul_claro);
   color: var(--azul_escuro);
 }
+
+#tema:active {
+  box-shadow: 0px 0px 10px 4px var(--azul_claro);
+  background-color: var(--branco);
+}
+
+/* active */
 
 .btn-criptografar:active {
   background-color: var(--azul_claro);
@@ -35,6 +80,7 @@
   background-color: var(--branco);
 }
 
+/* focus */
 .btn-criptografar:focus {
   outline: 2px solid var(--azul_claro);
 }
@@ -45,5 +91,9 @@
 }
 
 #copy:focus {
+  outline: 2px solid var(--azul_claro);
+}
+
+#tema:focus {
   outline: 2px solid var(--azul_claro);
 }
