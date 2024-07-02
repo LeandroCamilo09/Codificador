@@ -6,7 +6,7 @@
 
 &nbsp; Por em práticas os conhecimentos adiquiridos no curso da Alura.
 
-## Sobre o pojeto.
+## Sobre o projeto.
 
 &nbsp; projeto é uma plataforma para criptografar e descriptografar mensagens, com a opção adicional de copiar o texto.
 
