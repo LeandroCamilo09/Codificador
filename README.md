@@ -10,7 +10,7 @@
 
 &nbsp; projeto é uma plataforma para criptografar e descriptografar mensagens, com a opção adicional de copiar o texto.
 
-### Como funiona?
+### Como funciona?
 
 &nbsp; O usuário digita a mensagem e seleciona a opção "Criptografar" ou "Descriptografar". O resultado da operação aparecerá no lado direito da página.
 
