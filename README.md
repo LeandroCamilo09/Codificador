@@ -29,6 +29,7 @@
 **Ressalvas:** Ressalvas: A mensagem digitada pelo usuário deve conter apenas letras minúsculas e sem acentos.
 
 <img src="./img/Pagina_teste.png" alt="Pagina inicial">
+<img src="./img/demonstração.gif" alt="Pagina inicial">
 
 #
 
@@ -38,6 +39,7 @@
 
 <img src="./img/Pagina_Inicial.png" alt="Pagina inicial">
 <img src="./img/Tema_Light_Pc.png" alt="Pagina inicial">
+<img src="./img/demonstração2.gif" alt="Pagina inicial">
 
 #
 
@@ -51,19 +53,11 @@
 
 #
 
-## Linguagens.
+## Tecnologias utilizadas.
 
-<ul>
-     <li>
-     JavaScript
-     </li>
-     <li>
-     HTML
-     </li>
-     <li>
-     Css
-     </li>
-</ul>
+- `JavaScript`
+- `HTML`
+- `Css`
 
 ## Equipe.
 
