@@ -2,6 +2,10 @@
 
 <img src="./img/Pagina_Inicial.png" alt="Pagina inicial">
 
+### Abrir e rodar o projeto:
+
+https://leandrocamilo09.github.io/Codificador/
+
 ## Objetivo:
 
 &nbsp;Colocar em prática os conhecimentos adquirido no curso da Alura.
