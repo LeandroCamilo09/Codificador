@@ -51,7 +51,7 @@
 
 &nbsp;Além do computador, o projeto também foi adaptado para telas de **Tabletes** e **Celulares.**
 
-- Tablete:
+- Tablete:<br>
   <img src="./img/Pagina_Ipad.png" alt="Pagina inicial">
   <img src="./img/Pagina_Ipad_Light-Mode.png" alt="Pagina inicial">
 
