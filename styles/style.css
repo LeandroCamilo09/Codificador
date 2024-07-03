@@ -69,7 +69,7 @@ body {
 
 /* geral */
 .container {
-  height: 90vh;
+  height: 100%;
   margin: 2%;
   display: grid;
   grid-template-columns: 4fr 1fr;
