@@ -4,7 +4,7 @@
 
 ### Abrir e rodar o projeto:
 
-https://leandrocamilo09.github.io/Codificador/
+https://leandrocamilo09.github.io/Codificador_De_Mensagens/
 
 ## Objetivo:
 
